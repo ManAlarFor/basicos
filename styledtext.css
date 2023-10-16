@@ -1,0 +1,15 @@
+/***********************************************************************************/
+/*                               Estilo para StyledText                            */
+/*                               Autor: Manuel Alarcón                             */
+/*                               version: 1.0                                      */
+/***********************************************************************************/
+
+body {color: white;
+    background-color: rgb(0, 0, 0);}
+h2 {color:salmon}
+/*id es un selector único*/
+#encabezado1 {text-align: right;}
+/*class es un selector colectivo*/
+.centrado {text-align: center;}
+/*es un selector contextual, añadiendo este mismo,más de un selector separados con espacios*/
+.centrado b {color: red;}
